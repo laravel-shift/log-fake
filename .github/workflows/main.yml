@@ -67,7 +67,7 @@ jobs:
     name: 'PHP: ${{ matrix.php }}; Dependecies: ${{ matrix.dependency-version }}'
     strategy:
       matrix:
-        php: ['8.0', '8.1']
+        php: [8.1]
         dependency-version: ['prefer-lowest', 'prefer-stable']
 
     steps:
